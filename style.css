@@ -1,0 +1,498 @@
+/*GENERAL*/
+
+body {
+    background: rgb(255 109 200);
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    opacity: 0.75;
+}
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    opacity: 0.75;
+}
+
+h4 {
+    font-family: 'Jost', sans-serif;
+    opacity: 0.75;
+}
+
+li {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2em;
+    opacity: 0.80;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    opacity: 2.75;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 0.9em;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+    opacity: 0.80;
+}
+
+
+/*HEADER*/
+
+header {
+    height: 30em;
+    background: url("header-01.gif");
+    background-position: 50% 10%;
+    background-size: 100%
+}
+
+.wave {
+    background: #ff000000;
+    bottom: 0;
+    width: 100%;
+    display: inline;
+}
+
+header nav {
+    float: right;
+    margin: 0;
+    padding: 1em;
+    height: 2em;
+}
+
+header nav a {
+    padding: 0.5em;
+}
+
+header h1 {
+    width: max-content;
+    margin: 0 auto;
+    padding: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+
+header h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    padding-bottom: 5em;
+}
+
+
+/*SECTION01*/
+
+#SECTION01 article:nth-child(1) {
+    height: 15em;
+    background: white;
+    padding: 4em 0;
+}
+
+#SECTION01 article:nth-child(1) h1 {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    opacity: 2.75;
+}
+
+#SECTION01 article:nth-child(1) div {
+    width: 60%;
+    padding: 0 4em 4em 4em;
+    text-align: justify;
+    float: right;
+}
+
+#SECTION01 article:nth-child(1) img {
+    width: 80%;
+    max-width: 16em;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+#SECTION01 article:nth-child(2) {
+    padding: 5em;
+    background: linear-gradient(45deg, rgb(123 0 136), rgb(255 45 200));
+    color: black;
+    box-shadow: 0 0 5em rgb(36 25 60);
+}
+
+#SECTION01 article:nth-child(2) h1 {
+    text-align: center;
+}
+
+#SECTION01 article:nth-child(2) p {
+    margin: 0 20%;
+    text-align: justify;
+}
+
+
+/*SECTION01-2*/
+
+#SECTION01-2 article:nth-child(1) {
+    height: 15em;
+    background: fuchsia;
+    padding: 4em 0;
+}
+
+#SECTION01-2 article:nth-child(1) h1 {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    opacity: 2.75;
+}
+
+#SECTION01-2 article:nth-child(1) div {
+    width: 60%;
+    padding: 0 4em 4em 4em;
+    text-align: justify;
+    float: right;
+}
+
+#SECTION01-2 article:nth-child(1) img {
+    width: 80%;
+    max-width: 16em;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+#SECTION01-2 article:nth-child(2) {
+    padding: 5em;
+    background: linear-gradient(45deg, rgb(123 0 136), rgb(255 45 200));
+    color: black;
+    box-shadow: 0 0 5em rgb(36 25 60);
+}
+
+#SECTION01-2 article:nth-child(2) h1 {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    opacity: 2.75;
+}
+
+#SECTION01-2 article:nth-child(2) p {
+    margin: 0 50%;
+    text-align: justify;
+    font-family: 'Jost', sans-serif;
+    opacity: 2.75;
+}
+
+
+/*SECTION02*/
+
+#SECTION02 {
+    background: linear-gradient(0deg, rgb(123 0 136), rgb(255 255 255) 50%);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#SECTION02 img {
+    margin: 0;
+    max-width: 100%;
+}
+
+#SECTION02 h1 {
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    color: black;
+    font-family: 'Jost', sans-serif;
+    opacity: 2.75;
+}
+
+#SECTION02 h2 {
+    text-align: center;
+    padding: 1.5em;
+    margin: 0;
+    background: linear-gradient(to top, rgb(61 56 72 / 0%), white)
+}
+
+#SECTION02 article {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#SECTION02 article div {
+    width: 20em;
+    height: 13em;
+    box-shadow: 0 0 2.5em rgb(0 0 0 / 0.25);
+    border: 0.2em #ffffff00 solid;
+    border-radius: 1em;
+    opacity: 0.5;
+    transition: border 0.5s, opacity 1s;
+}
+
+#SECTION02 article div:hover {
+    border: 0.2em rgb(255 255 255 / 0.60) solid;
+    opacity: 1;
+}
+
+#SECTION02 article div {
+    width: 20em;
+    height: 13em;
+    margin: 2em;
+    float: left;
+    box-shadow: 0 0 2.5em rgb(0 0 0 / 0.25);
+}
+
+#SECTION02 article div:nth-child(1) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("1cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02 article div:nth-child(2) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("4cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02 article div:nth-child(3) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("3cabello.jpg");
+}
+
+#SECTION02 article div:nth-child(4) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("5cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02 article div:nth-child(5) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("6cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02 article div:nth-child(6) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("7cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02 article div:nth-child(7) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("8cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02 article div:nth-child(8) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("9cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 105%;
+}
+
+#SECTION02 article div:nth-child(9) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("11.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+
+/*SECTION02-1*/
+
+#SECTION02-1 {
+    background: linear-gradient(0deg, rgb(123 0 136), rgb(255 255 255) 50%);
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+#SECTION02-1 img {
+    margin: 0;
+    max-width: 100%;
+}
+
+#SECTION02-1 h1 {
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+    color: black;
+    background: linear-gradient(to bottom, rgb(150 102 249 / 80%), white);
+}
+
+#SECTION02-1 h2 {
+    text-align: center;
+    padding: 1.5em;
+    margin: 0;
+    background: linear-gradient(to top, rgb(61 56 72 / 0%), white) opacity 2.75;
+}
+
+#SECTION02-1 article {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#SECTION02-1 article div {
+    width: 20em;
+    height: 13em;
+    box-shadow: 0 0 2.5em rgb(0 0 0 / 0.25);
+    border: 0.2em #ffffff00 solid;
+    border-radius: 1em;
+    opacity: 0.5;
+    transition: border 0.5s, opacity 1s;
+}
+
+#SECTION02-1 article div:hover {
+    border: 0.2em rgb(255 255 255 / 0.60) solid;
+    opacity: 1;
+}
+
+#SECTION02-1 article div {
+    width: 20em;
+    height: 13em;
+    margin: 2em;
+    float: left;
+    box-shadow: 0 0 2.5em rgb(0 0 0 / 0.25);
+}
+
+#SECTION02-1 article div:nth-child(1) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("1cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02-1 article div:nth-child(2) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("2cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02-1 article div:nth-child(3) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("4cabello.jpg");
+}
+
+#SECTION02-1 article div:nth-child(4) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("5cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02-1 article div:nth-child(5) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("6cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02-1 article div:nth-child(6) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("7cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02-1 article div:nth-child(7) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("8cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#SECTION02-1 article div:nth-child(8) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("9cabello.jpg");
+    background-position: 50% 50%;
+    background-size: 105%;
+}
+
+#SECTION02-1 article div:nth-child(9) {
+    background: linear-gradient(45deg, rgb(123 0 136 / 50%), rgb(255 45 200 / 40%)), url("11.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+
+/*SECTION03*/
+
+#SECTION03 {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 1em 0;
+    background: linear-gradient(180deg, rgb(123 0 136), rgb(25 0 212));
+    color: white;
+}
+
+#SECTION03 li a {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.0em;
+    opacity: 5.75;
+    padding: auto;
+    color: yellow;
+}
+
+#SECTION03 h1 {
+    text-align: center;
+    margin: 0;
+    padding: 3em;
+}
+
+#SECTION03 p {
+    text-align: justify;
+    margin: none;
+    padding: 2em;
+}
+
+#SECTION03 article:nth-child(1) {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#SECTION03 article:nth-child(2) {
+    width: 512px;
+    margin: 0 auto;
+}
+
+#SECTION03 article:nth-child(2) h1 {
+    margin: 3.5em 0 0 0;
+}
+
+#SECTION03 article:nth-child(2) video {
+    width: 30em;
+    margin: 1em 0;
+    border: 1em white solid;
+    border-radius: 1em;
+    box-shadow: 0 0 5em rgb(0 0 0 / 30%);
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: rgb(25 0 212);
+    padding: 3em 0 2em 0;
+    color: white;
+}
+
+footer h4 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 0.15em #ffffff solid;
+    opacity: 0.7;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    opacity: 0.7;
+}
+
+footer article {
+    width: max-content;
+    margin: 0 auto;
+}
+
+footer article div {
+    width: 17em;
+    float: left;
+    margin: 2em;
+}
+
+footer h2 {
+    width: max-content;
+    margin: 3em auto 0 auto;
+    opacity: 0.4;
+}
